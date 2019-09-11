@@ -61,4 +61,3 @@
     register_nav_menus(array(
         // 'portfolio-menu' => 'Фильтр',
     ));
-

@@ -117,19 +117,22 @@
 			<div class="project__wrap" id="wrap1">
 				<div class="project__img">
 					<div id="wrap1--one" class="tabs__wrap tabs__wrap--first">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
+						<iframe width="1680" height="738" src="https://www.youtube.com/embed/v_SSkhXGq5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div id="wrap1--two" class="tabs__wrap">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu2.jpg" alt="">
 					</div>
 					<div id="wrap1--three" class="tabs__wrap">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu3.jpg" alt="">
 					</div>
 					<div id="wrap1--four" class="tabs__wrap">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu4.jpg" alt="">
 					</div>
 					<div id="wrap1--five" class="tabs__wrap">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu5.jpg" alt="">
+					</div>
+					<div id="wrap1--six" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu6.jpg" alt="">
 					</div>
 				</div>
 
@@ -138,14 +141,16 @@
 					<ul>
 						<li><span>Вес:</span><span>900 кг.</span></li>
 						<li><span>Количество:</span><span>1шт</span></li>
-						<li><span>Стоимость:</span><span>36 000 рублей</span></li>
+						<li><span>Стоимость:</span><span>6000$</span></li>
+						<li><span>Примечание:</span><span> основное фото проекта ЧПУ, которое будет отображаться «внизу"  называется  «основное» в папке «чпу"</span></li>
 					</ul>
 					<ul class="project__list">
-						<li><a href="#wrap1--one" class="active"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap1--two"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap1--three"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap1--four"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap1--five"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
+						<li><a href="#wrap1--one" class="active"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu.jpg" alt=""></a></li>
+						<li><a href="#wrap1--two"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu2.jpg" alt=""></a></li>
+						<li><a href="#wrap1--three"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu3.jpg" alt=""></a></li>
+						<li><a href="#wrap1--four"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu4.jpg" alt=""></a></li>
+						<li><a href="#wrap1--five"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu5.jpg" alt=""></a></li>
+						<li><a href="#wrap1--six"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu6.jpg" alt=""></a></li>
 					</ul>
 				</div>
 			</div>
@@ -153,35 +158,66 @@
 			<div class="project__wrap" id="wrap2">
 				<div class="project__img">
 					<div id="wrap2--one" class="tabs__wrap tabs__wrap--first">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs1.jpg" alt="">
+						<iframe width="1680" height="722" src="https://www.youtube.com/embed/fqGkJpuZLsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 					<div id="wrap2--two" class="tabs__wrap">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture1.jpg" alt="">
 					</div>
 					<div id="wrap2--three" class="tabs__wrap">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs1.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture2.jpg" alt="">
 					</div>
 					<div id="wrap2--four" class="tabs__wrap">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs1.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture3.jpg" alt="">
 					</div>
 					<div id="wrap2--five" class="tabs__wrap">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs1.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture4.jpg" alt="">
 					</div>
 				</div>
 
 				<div class="project__info">
-					<h3>Закупка фрезерного чпу станка</h3>
+					<h3>Производство и доставка Офисных кресел</h3>
 					<ul>
-						<li><span>Вес:</span><span>900 кг.</span></li>
-						<li><span>Количество:</span><span>1шт</span></li>
-						<li><span>Стоимость:</span><span>36 000 рублей</span></li>
+						<li><span>Вес:</span><span>8500кг</span></li>
+						<li><span>Количество:</span><span>680</span></li>
 					</ul>
 					<ul class="project__list">
-						<li><a href="#wrap2--one" class="active"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap2--two"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap2--three"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap2--four"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
-						<li><a href="#wrap2--five"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tabs--min1.jpg" alt=""></a></li>
+						<li><a href="#wrap2--one" class="active"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture.jpg" alt=""></a></li>
+						<li><a href="#wrap2--two"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture1.jpg" alt=""></a></li>
+						<li><a href="#wrap2--three"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture2.jpg" alt=""></a></li>
+						<li><a href="#wrap2--four"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture3.jpg" alt=""></a></li>
+						<li><a href="#wrap2--five"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture4.jpg" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="project__wrap" id="wrap3">
+				<div class="project__img">
+					<div id="wrap3--one" class="tabs__wrap tabs__wrap--first">
+						<iframe width="1680" height="738" src="https://www.youtube.com/embed/otZEmZxKosQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<div id="wrap3--two" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser1.jpg" alt="">
+					</div>
+					<div id="wrap3--three" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser2.webp" alt="">
+					</div>
+					<div id="wrap3--four" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser3.webp" alt="">
+					</div>
+				</div>
+
+				<div class="project__info">
+					<h3>Доставка Лазерного гравера</h3>
+					<ul>
+						<li><span>Вес:</span><span>500кг</span></li>
+						<li><span>Количество:</span><span>1</span></li>
+						<li><span>Стоимость:</span><span>5000$</span></li>
+					</ul>
+					<ul class="project__list">
+						<li><a href="#wrap3--one" class="active"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser.webp" alt=""></a></li>
+						<li><a href="#wrap3--two"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser1.jpg" alt=""></a></li>
+						<li><a href="#wrap3--three"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser2.webp" alt=""></a></li>
+						<li><a href="#wrap3--four"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser3.webp" alt=""></a></li>
 					</ul>
 				</div>
 			</div>
@@ -189,36 +225,16 @@
 			<div class="project__slider swiper-container">
 				<div class="swiper-wrapper">
 					<a href="#wrap1" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu.jpg" alt="">
+						<p>Закупка и доставка <br>Фрезерного ЧПУ станка</p>
 					</a>
 					<a href="#wrap2" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item2.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/furniture.jpg" alt="">
+						<p>Производство и доставка Офисных кресел</p>
 					</a>
-					<a href="#" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
-					</a>
-					<a href="#" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item2.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
-					</a>
-					<a href="#" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
-					</a>
-					<a href="#" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item2.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
-					</a>
-					<a href="#" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item1.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
-					</a>
-					<a href="#" class="project__slide swiper-slide">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/project--item2.jpg" alt="">
-						<p>Закупка <br>фрезерного <br>чпу станка</p>
+					<a href="#wrap3" class="project__slide swiper-slide">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser3.webp" alt="">
+						<p>Доставка Лазерного гравера</p>
 					</a>
 				</div>
 				<!-- Add Scrollbar -->
@@ -233,30 +249,28 @@
 
 			<h2>посмотрите видео отзывы о нас</h2>
 
-			<div class="reviews__slider swiper-container">
-				<div class="swiper-wrapper">
-					<div class="reviews__slide swiper-slide">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+			<?php if( have_rows('reviews') ): ?>
+
+				<div class="reviews__slider swiper-container">
+					<div class="swiper-wrapper">
+
+					<?php while( have_rows('reviews') ): the_row(); 
+						$video = get_sub_field('video');
+					?>
+
+						<div class="reviews__slide swiper-slide">
+							<?php echo $video; ?>
+						</div>
+
+					<?php endwhile; ?>
+
 					</div>
-					<div class="reviews__slide swiper-slide">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="reviews__slide swiper-slide">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="reviews__slide swiper-slide">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="reviews__slide swiper-slide">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-					<div class="reviews__slide swiper-slide">
-						<iframe width="1663" height="738" src="https://www.youtube.com/embed/g0O8gMe9F7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
+					<!-- Add Scrollbar -->
+					<div class="reviews__scrollbar swiper-scrollbar"></div>
 				</div>
-				<!-- Add Scrollbar -->
-				<div class="reviews__scrollbar swiper-scrollbar"></div>
-			</div>
+			<?php endif; ?>
+
 
 		</div>
 	</section>

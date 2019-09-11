@@ -384,25 +384,15 @@
 			margin-right: 5%
 			margin-bottom: 15px
 
+			&::before
+				display: none
+
 		img
 			width: 100%
 
 		a
 			position: relative
 			display: block
-
-			&::before
-				content: ''
-				position: absolute
-				top: 0
-				left: 0
-				bottom: 0
-				right: 0
-				width: 100%
-				height: 100%
-				background-color: rgba(#000, .8)
-				opacity: 0
-				transition: all .6s
 
 			&:hover,
 			&:focus
@@ -494,6 +484,14 @@
 	color: #fff
 	font-size: 18px
 	border-bottom: 1px solid #fbfcfc
+
+	li
+		ul
+			margin-left: 15px
+
+	.form
+		div
+			margin-bottom: 5px
 
 	h3
 		font-size: 25px
