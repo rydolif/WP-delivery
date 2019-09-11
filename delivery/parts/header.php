@@ -8,7 +8,7 @@
 			</div>
 
 			<p>
-				<a href="tel:+78512410541" class="header__tel"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt="">+7 (8512) 410-541</a>
+				<a href="tel:<?php the_field('tel', 'option'); ?>" class="header__tel"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt=""><?php the_field('tel', 'option'); ?></a>
 				<a href="#" class="btn btn--header order_open">Заказать звонок</a>
 			</p>
 
@@ -28,7 +28,7 @@
 					'theme_location'=>'menu',
 				) );
 			?>
-			<a href="tel:+78512410541" class="nav__tel header__tel"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt="">+7 (8512) 410-541</a>
+			<a href="tel:<?php the_field('tel', 'option'); ?>" class="nav__tel header__tel"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt=""><?php the_field('tel', 'option'); ?></a>
 			<a href="#" class="btn btn--header order_open">Заказать звонок</a>
 		</nav>
 	</header>

@@ -40,9 +40,9 @@
 
 				</form>
 				<div class="contacts__info">
-					<a href="tel:+78512410541"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt="">+7 (8512) 410-541</a>
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/place.png" alt="">г. Астрахань, <br> ул.Свободы, 5, оф.4</p>
-					<a href="maito:info@inbox.ru"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.png" alt=""> info@inbox.ru</a>
+					<a href="tel:<?php the_field('tel', 'option'); ?>" class="nav__tel header__tel"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt=""><?php the_field('tel', 'option'); ?></a>
+					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/place.png" alt=""><?php the_field('place', 'option'); ?></p>
+					<a href="maito:info@inbox.ru"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.png" alt=""><?php the_field('mail', 'option'); ?></a>
 				</div>
 			</div>
 
