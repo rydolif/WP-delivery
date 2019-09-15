@@ -24,33 +24,33 @@
 
 			<div class="services__list">
 				
-				<div class="services__item">
+				<a href="http://rktransit.ru/avtodostavka/" class="services__item">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item_bg1.jpg" alt="" class="services__item_bg">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item1.png" alt="" class="services__item_icon">
 					<h3>Автодоставка</h3>
 					<p>Сборные фуры <br>к вашим услугам</p>
 					<p><span>от</span> <b>250</b> <span>рублей/кг.</span></p>
-				</div>
-				<div class="services__item">
+				</a>
+				<a href="http://rktransit.ru/zhd-jekspress-dostavka/" class="services__item">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item_bg2.jpg" alt="" class="services__item_bg">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item2.png" alt="" class="services__item_icon">
 					<h3>жд доставка</h3>
 					<p>Дешевле фуры, <br>быстрее корабля</p>
 					<p><span>от</span> <b>150</b> <span>рублей/кг.</span></p>
-				</div>
-				<div class="services__item">
+				</a>
+				<a href="http://rktransit.ru/morskaja-dostavka/" class="services__item">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item_bg3.jpg" alt="" class="services__item_bg">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item3.png" alt="" class="services__item_icon">
 					<h3>морская доставка</h3>
 					<p>Оптимально для <br>крупных грузов</p>
 					<p><span>от</span> <b>70</b> <span>рублей/кг.</span></p>
-				</div>
-				<div class="services__item">
+				</a>
+				<a href="http://rktransit.ru/jekonom-dostavka/" class="services__item">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item_bg4.jpg" alt="" class="services__item_bg">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item4.png" alt="" class="services__item_icon">
 					<h3>эконом доставка</h3>
 					<p>Экономичная доставка <br>из Китая</p>
-				</div>
+				</a>
 
 			</div>
 		</div>
@@ -222,6 +222,157 @@
 				</div>
 			</div>
 
+			<div class="project__wrap" id="wrap4">
+				<div class="project__img">
+					<div id="wrap4--one" class="tabs__wrap tabs__wrap--first">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container1.jpeg" alt="">
+					</div>
+					<div id="wrap4--two" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container2.jpg" alt="">
+					</div>
+					<div id="wrap4--three" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container3.jpg" alt="">
+					</div>
+					<div id="wrap4--four" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container4.jpg" alt="">
+					</div>
+					<div id="wrap4--five" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container5.jpg" alt="">
+					</div>
+					<div id="wrap4--six" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container6.jpg" alt="">
+					</div>
+					<div id="wrap4--seven" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container7.jpeg" alt="">
+					</div>
+				</div>
+
+				<div class="project__info">
+					<h3>Автодоставка сборного контейнера 20ф</h3>
+					<ul>
+						<li><span>Вес:</span><span>6400</span></li>
+						<li><span>Количество:</span><span>1</span></li>
+						<li><span>Примечание:</span><span>основное фото проекта, которое будет отображаться «внизу"  называется  «основное» в</span></li>  
+					</ul>
+					<ul class="project__list">
+						<li>
+							<a href="#wrap4--one" class="active">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container1.jpeg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap4--two">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container2.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap4--three">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container3.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap4--four">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container4.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap4--five">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container5.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap4--six">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container6.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap4--seven">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container7.jpeg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="project__wrap" id="wrap5">
+				<div class="project__img">
+					<div id="wrap5--one" class="tabs__wrap tabs__wrap--first">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto1.jpg" alt="">
+					</div>
+					<div id="wrap5--two" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto2.jpg" alt="">
+					</div>
+					<div id="wrap5--three" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto3.jpg" alt="">
+					</div>
+					<div id="wrap5--four" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto4.jpg" alt="">
+					</div>
+					<div id="wrap5--five" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto5.jpg" alt="">
+					</div>
+					<div id="wrap5--six" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto6.jpg" alt="">
+					</div>
+					<div id="wrap5--seven" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto7.jpg" alt="">
+					</div>
+					<div id="wrap5--eight" class="tabs__wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto8.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="project__info">
+					<h3>Доставка и таможенное оформление Автозапчастей</h3>
+					<ul>
+						<li><span>Вес:</span><span>6700</span></li>
+						<li><span>Количество:</span><span>25000</span></li> 
+					</ul>
+					<ul class="project__list">
+						<li>
+							<a href="#wrap5--one" class="active">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto1.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap5--two">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto2.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap5--three">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto3.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap5--four">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto4.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap5--five">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto5.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap5--six">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto6.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap5--seven">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto7.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#wrap5--eight">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto8.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
 			<div class="project__slider swiper-container">
 				<div class="swiper-wrapper">
 					<a href="#wrap1" class="project__slide swiper-slide">
@@ -235,6 +386,14 @@
 					<a href="#wrap3" class="project__slide swiper-slide">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/laser3.webp" alt="">
 						<p>Доставка Лазерного гравера</p>
+					</a>
+					<a href="#wrap4" class="project__slide swiper-slide">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/container1.jpeg" alt="">
+						<p>Автодоставка сборного контейнера 20ф</p>
+					</a>
+					<a href="#wrap5" class="project__slide swiper-slide">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/auto1.jpg" alt="">
+						<p>Доставка и таможенное оформление Автозапчастей</p>
 					</a>
 				</div>
 				<!-- Add Scrollbar -->
