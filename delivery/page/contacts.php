@@ -30,24 +30,18 @@
 
 			<div class="sea--contacts__info">
 				<div class="sea--contacts__item">
-					<a href="mailto:info@inbox.ru"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.png" alt="">info@inbox.ru</a>
+					<a href="mailto:<?php the_field('mail', 'option'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/mail.png" alt=""><?php the_field('mail', 'option'); ?></a>
 				</div>
 				<div class="sea--contacts__item">
-					<a href="tel:+78512410541"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt=""> +7 (8512) 410-541</a>
+					<a href="tel:<?php the_field('tel', 'option'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tel.png" alt=""> <?php the_field('tel', 'option'); ?></a>
 				</div>
 				<div class="sea--contacts__item">
-					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/place.png" alt=""> г. Астрахань,<br>пл.Ленина , 2, оф.7</p>
+					<p><img src="<?php echo get_template_directory_uri(); ?>/assets/img/place.png" alt=""> <?php the_field('place', 'option'); ?></p>
 				</div>
 				<div class="sea--contacts__item">
 					<p>
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/place.png" alt="">
-						г. Пекин
-					<br>
-						北京市朝阳区新源里西19号格纳斯大厦319室
-					<br>
-						г. Гуанчжоу
-					<br>
-						白云区滘心大道自编一号 中北白云湖仓储园 С06-08
+						<?php the_field('pekin', 'option'); ?>
 					</p>
 				</div>
 			</div>

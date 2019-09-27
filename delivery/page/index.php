@@ -29,21 +29,21 @@
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item1.png" alt="" class="services__item_icon">
 					<h3>Автодоставка</h3>
 					<p>Сборные фуры <br>к вашим услугам</p>
-					<p><span>от</span> <b>250</b> <span>рублей/кг.</span></p>
+					<p><span>от</span> <b><?php the_field('auto'); ?></b> <span>рублей/кг.</span></p>
 				</a>
 				<a href="http://rktransit.ru/zhd-jekspress-dostavka/" class="services__item">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item_bg2.jpg" alt="" class="services__item_bg">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item2.png" alt="" class="services__item_icon">
 					<h3>жд доставка</h3>
 					<p>Дешевле фуры, <br>быстрее корабля</p>
-					<p><span>от</span> <b>150</b> <span>рублей/кг.</span></p>
+					<p><span>от</span> <b><?php the_field('gd'); ?></b> <span>рублей/кг.</span></p>
 				</a>
 				<a href="http://rktransit.ru/morskaja-dostavka/" class="services__item">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item_bg3.jpg" alt="" class="services__item_bg">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item3.png" alt="" class="services__item_icon">
 					<h3>морская доставка</h3>
 					<p>Оптимально для <br>крупных грузов</p>
-					<p><span>от</span> <b>70</b> <span>рублей/кг.</span></p>
+					<p><span>от</span> <b><?php the_field('opt'); ?></b> <span>рублей/кг.</span></p>
 				</a>
 				<a href="http://rktransit.ru/jekonom-dostavka/" class="services__item">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/services__item_bg4.jpg" alt="" class="services__item_bg">
@@ -142,7 +142,6 @@
 						<li><span>Вес:</span><span>900 кг.</span></li>
 						<li><span>Количество:</span><span>1шт</span></li>
 						<li><span>Стоимость:</span><span>6000$</span></li>
-						<li><span>Примечание:</span><span> основное фото проекта ЧПУ, которое будет отображаться «внизу"  называется  «основное» в папке «чпу"</span></li>
 					</ul>
 					<ul class="project__list">
 						<li><a href="#wrap1--one" class="active"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/chpu.jpg" alt=""></a></li>
@@ -252,7 +251,6 @@
 					<ul>
 						<li><span>Вес:</span><span>6400</span></li>
 						<li><span>Количество:</span><span>1</span></li>
-						<li><span>Примечание:</span><span>основное фото проекта, которое будет отображаться «внизу"  называется  «основное» в</span></li>  
 					</ul>
 					<ul class="project__list">
 						<li>

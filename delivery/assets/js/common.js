@@ -42,7 +42,7 @@ $(function() {
   function ajaxSend(formName, data) {
     jQuery.ajax({
       type: "POST",
-      url: "/wp-content/themes/delivery/sendmail.php",
+      url: "/wp-content/themes/delivery/telegram.php",
       data: data,
       success: function() {
         $(".modal").popup("hide");

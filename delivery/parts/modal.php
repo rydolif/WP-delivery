@@ -1,15 +1,12 @@
 	
 	<div class="modal" id="order">
-
 		<button class="close order_close" type="button">
 			<span></span>
 			<span></span>
 		</button>
-
-		<form action="sendmail.php" class="form" method="post">
+		<form action="telegram.php" class="form" method="post">
 			<h3>Оставьте заявку, <br>мы свяжемся с Вами</h3>
 			<input type="hidden" name="subject" value="Узнать подробнее!">
-
 			<div class="">
 				<input type="text" name="name" placeholder="Имя" required>
 			</div>
